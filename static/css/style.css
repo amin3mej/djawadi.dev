@@ -9,6 +9,10 @@ body {
     align-items: center;
 }
 
+::selection {
+  background: #C4C4C4;
+}
+
 a, a:hover, a:visited, a:active {
   color: inherit;
   text-decoration: none;
