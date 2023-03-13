@@ -58,6 +58,10 @@ a, a:hover, a:visited, a:active {
     width: 24px;
 }
 
+.social-links a span {
+    font-size: 12px;
+}
+
 @media screen and (max-width: 768px) {
     .social-links a span {
         display: block;
