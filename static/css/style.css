@@ -26,7 +26,7 @@ a, a:hover, a:visited, a:active {
 .hero {
     display: flex;
     flex-direction: column;
-    gap: 32px;
+    gap: clamp(24px, 4vh, 32px);
 }
 
 .name {
@@ -43,8 +43,8 @@ a, a:hover, a:visited, a:active {
 .social-links {
     display: flex;
     flex-direction: column;
-    margin-top: 128px;
-    gap: 48px;
+    margin-top: clamp(64px, 4vh, 128px);
+    gap: clamp(24px, 4vh, 64px);
 }
 
 .social-links a {
