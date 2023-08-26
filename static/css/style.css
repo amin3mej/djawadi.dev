@@ -31,7 +31,7 @@ a, a:hover, a:visited, a:active {
 }
 
 .name {
-    font-size: clamp(42px, 4vw, 48px);
+    font-size: clamp(1.75rem, 0.9442rem + 3.3058vw, 4.25rem);;
     letter-spacing: 0.5em;
     font-weight: 800;
 }
